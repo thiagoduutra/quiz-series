@@ -1,0 +1,42 @@
+@import "../utils/variables.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleaway", sans-serif;
+  color: $color-white;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: $color-black-3;
+}
+
+img {
+  display: block;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(230, 11, 11) 0%,
+    rgb(216, 60, 60) 100%
+  );
+
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      rgb(216, 60, 60) 0%,
+      rgb(230, 11, 11) 100%
+    );
+  }
+}

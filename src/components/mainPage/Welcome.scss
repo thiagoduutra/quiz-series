@@ -1,0 +1,21 @@
+.container-welcome {
+  text-align: center;
+  max-width: 39%;
+
+  .subTitle,
+  .paragraph {
+    margin-bottom: 1rem;
+  }
+
+  .paragraph {
+    color: rgb(202, 57, 57);
+  }
+  .container-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    img {
+      max-width: 85%;
+    }
+  }
+}
