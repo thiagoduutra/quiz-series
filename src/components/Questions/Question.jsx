@@ -13,7 +13,6 @@ const Question = () => {
     dispatch({
       type: "CHECK_ANSWER",
       //enviar dados para o reducer
-
       payload: { answer: currentQuestion.answer, option },
     });
   };
