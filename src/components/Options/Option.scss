@@ -16,3 +16,11 @@
     background: $color-black;
   }
 }
+.correct {
+  background-color: $color-green-3;
+  font-weight: bold;
+}
+
+.incorrect {
+  opacity: 0.4;
+}
