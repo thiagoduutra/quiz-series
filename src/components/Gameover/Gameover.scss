@@ -1,3 +1,5 @@
+@import "../../style/utils/variables.scss";
+
 .container-gameover {
   display: flex;
   flex-direction: column;
@@ -10,7 +12,7 @@
   }
 
   .paragraph {
-    color: rgb(202, 57, 57);
+    color: $color-red-3;
   }
 
   .container-img {

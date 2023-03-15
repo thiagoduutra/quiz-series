@@ -1,3 +1,5 @@
+@import "../../style/utils/variables.scss";
+
 .container-welcome {
   text-align: center;
   max-width: 35%;
@@ -8,7 +10,7 @@
   }
 
   .paragraph {
-    color: rgb(202, 57, 57);
+    color: $color-red-3;
   }
   .container-img {
     display: flex;
