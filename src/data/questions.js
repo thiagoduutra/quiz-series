@@ -1,6 +1,6 @@
 const data = [
   {
-    question: "Qual é o nome do grupo secreto que ajuda Whiterose",
+    question: "Qual é o nome do grupo secreto que ajuda Whiterose?",
     options: ["Dark Army", "Suicide Squad", "Death Squad", "Black Rose"],
     answer: "Dark Army",
   },
