@@ -30,7 +30,7 @@ const data = [
     answer: "Engenheiro de Software",
   },
   {
-    question: "onde Elliot encontrou o corpo de Shayla?",
+    question: "Onde Elliot encontrou o corpo de Shayla?",
     options: [
       "Na Banheira",
       "No apartamento dele",
